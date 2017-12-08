@@ -105,7 +105,7 @@ void lcd_output(byte value)
   port_val |= clock_value;
   PORTD = port_val;
   
-  //clock_value = !clock_value;
+  clock_value = !clock_value;
 }
 
 //Sets up port D, thats it.
