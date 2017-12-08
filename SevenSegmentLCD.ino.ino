@@ -6,7 +6,7 @@
 #include <FirmataParser.h>
 
 
-bool clock_value = false;
+bool clock_value = true;
 byte count = 0;
 
 //Something that could easily be made redundant
